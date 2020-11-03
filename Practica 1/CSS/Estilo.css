@@ -1,0 +1,64 @@
+body{
+    background: #4ecfbc;
+    margin: 0;
+    padding: 0;
+}
+
+
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+ /*Llamados a la etiqueta body, abrimos y cerramos llaves*/
+
+ /*Con control y mas podemos hacer una nota en css*/
+ /*vh se utiliza para ajustar el tamaño de la pagina con la informacion que tiene*/
+
+.sec1{
+    background: url("./../IMG/8c803c41a6680aa7d8508a05923cc83681179176_hq.jpg"); /*Se utiliza para agregar una imaguen de fondo*/
+    background-repeat: no-repeat; /*indicamos que la imaguen no se repita*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sec2{
+    background: url("./../IMG/dc36c26faf33cc2678acb6fba2c52a44.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sec3{
+    background: url("./../IMG/tumblr_mxtrgqp4o31t5k9zzo1_400.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.secText{
+    height: auto; /*Se va a acomodar dependiendo del tamaño del titulo y el parrado*/
+    padding: 50px 100px; /*Utilizamos un relleno de 50px de arriba a abajo y 10px de izquierda a derecha*/
+}
+
+.secText > h3{
+    margin: 0;
+    padding: 0;
+    font-size: 48px; /*Fond-size se utiliza para poner el tamaño del texto*/
+    color: #FFFFFF; /*Color es la tiqueta para ponerle color al texto*/
+}
+
+.secText > p{
+    font-size: 18px;
+    text-align: justify; /*Alineamos el texto justificadamente*/
+    color: #FFFFFF;
+}
+
+h1{
+    font-size: 48px;
+    color: #FFFFFF;
+    padding-left: 50px; /*Darle un espacio hacia la derecha*/
+}
