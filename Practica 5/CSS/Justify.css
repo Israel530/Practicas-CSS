@@ -1,0 +1,31 @@
+body{
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    width: 12em;
+    line-height: 0em;
+}
+
+.numero{
+    background: rgba(255, 0, 76, 0.486);
+    text-align: center;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: row wrap;
+    font-size: 17px;
+    width: 60px;
+    height: 30px;
+    margin: 0em;
+}
+
+.fondo{
+    background: black;
+    width: 20em;
+    height: 4em;
+    flex-flow: row wrap;
+}

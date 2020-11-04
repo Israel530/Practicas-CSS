@@ -1,0 +1,119 @@
+h2{
+    color:rebeccapurple ;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.fondo-morado{
+    background: rebeccapurple;
+    width: 100%;
+    height: 80px;
+}
+
+.fondo-morado > .flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.fondo-morado > .flex-start > div{
+    background: rgb(255, 115, 0);
+    width: 5%;
+    height: 50px;
+    margin: 15px 10px;
+}
+
+.fondo-morado > .flex-start > .cuadro-chico{
+    background: rgb(255, 115, 0);
+    width: 3%;
+}
+
+.fondo-morado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+.fondo-morado > .flex-end > div{
+    background: rgb(255, 115, 0);
+    width: 5%;
+    height: 50px;
+    margin: 15px 10px;
+}
+
+.fondo-morado > .flex-end > .cuadro-chico{
+    background: rgb(255, 115, 0);
+    width: 3%;
+}
+
+.fondo-morado > .center{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.fondo-morado > .center > div{
+    background: rgb(255, 115, 0);
+    width: 5%;
+    height: 50px;
+    margin: 15px 10px;
+}
+
+.fondo-morado > .center > .cuadro-chico{
+    background: rgb(255, 115, 0);
+    width: 3%;
+}
+
+.fondo-morado > .space-between{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.fondo-morado > .space-between > div{
+    background: rgb(255, 115, 0);
+    width: 5%;
+    height: 50px;
+    margin: 15px 10px;
+}
+
+.fondo-morado > .space-between > .cuadro-chico{
+    background: rgb(255, 115, 0);
+    width: 3%;
+}
+
+.fondo-morado > .space-around{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.fondo-morado > .space-around > div{
+    background: rgb(255, 115, 0);
+    width: 5%;
+    height: 50px;
+    margin: 15px 10px;
+}
+
+.fondo-morado > .space-around > .cuadro-chico{
+    background: rgb(255, 115, 0);
+    width: 3%;
+}
+
+.fondo-morado > .space-evenly{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.fondo-morado > .space-evenly > div{
+    background: rgb(255, 115, 0);
+    width: 5%;
+    height: 50px;
+    margin: 15px 10px;
+}
+
+.fondo-morado > .space-evenly > .cuadro-chico{
+    background: rgb(255, 115, 0);
+    width: 3%;
+}
