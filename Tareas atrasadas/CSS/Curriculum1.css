@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=Peddana&display=swap');
+body{
+    background: #772626;
+}
+
+.titulos{
+    width: 50%;
+    height: 50%;
+    margin: 5%;
+    padding: 0%; 
+}
+
+h1{
+    color: lightblue;
+    font-family: "Open Sans";
+    text-transform: uppercase;
+}
+
+h2{
+    color: lightblue;
+    font-family: "Oswald";
+    text-transform: uppercase;
+}
+h2::first-letter{
+    font-size: 40px;
+}
+
+ul > li{
+    color: lightblue;
+    font-family: "Peddana";
+    font-size: 50px;
+}
+
+span{
+    font-size: 50px;
+}
+
+.negrita1{
+    font-weight: 600;
+}
+

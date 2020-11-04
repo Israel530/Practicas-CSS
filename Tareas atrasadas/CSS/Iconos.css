@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 2%;
+}
+
+.fila1{
+    flex-flow: row wrap;
+    display: flex;
+    margin-top: 5%; 
+    justify-content: center;
+    
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+a > .fa{
+    color:#ffff;
+   font-size: 70px;
+   cursor: pointer;
+   margin-top: 15%;
+}
+
+a > .fa:hover{
+    color: rgb(40, 8, 70);
+}
+
+.fila1 > .icono1{
+    background: #b81aaa;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fila1 > .icono2{
+    background: rgb(28, 158, 233);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fila1 > .icono3{
+    background: red;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fila2 > .icono4{
+    background: rgb(145, 0, 0);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fila2 > .icono5{
+    background: rgb(22, 73, 212);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fila2 > .icono6{
+    background: rgb(2, 162, 255);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fila3 > .icono7{
+    background: rgb(230, 230, 0);
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fila3 > .icono8{
+    background: #8936EE;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.fila3 > .icono9{
+    background: red;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+

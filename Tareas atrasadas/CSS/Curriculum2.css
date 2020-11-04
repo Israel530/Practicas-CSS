@@ -1,0 +1,25 @@
+body{
+    background: rgb(194, 153, 159);
+}
+
+.titulos{
+    margin: 5%;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.Subrayado{
+    text-decoration-line: underline;
+    font-weight: 600;
+}
+
+ul > li{
+    font-size: 18px;
+}

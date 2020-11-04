@@ -1,0 +1,18 @@
+body{
+    margin: 5%;
+    background: rgb(156, 146, 175);
+}
+
+h1{
+    background-color: rgb(187, 182, 182);
+    color: royalblue;
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(134, 13, 13);
+}
+
+ul > li{
+    font-weight: 600;
+}

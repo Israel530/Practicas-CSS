@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(189, 189, 238);
+}
+
+h1{
+    text-align: center;
+    color: rgb(63, 51, 0);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 2%;
+}
+
+video{
+    height: 50%;
+    width: 50%;
+    margin: 2% 25%;
+}
+
+audio{
+    width: 50%;
+    margin: 2% 25%;
+}
+
+iframe{
+    margin: 2% 25%;
+}
